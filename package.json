@@ -1,0 +1,32 @@
+{
+  "name": "token-vesting",
+  "version": "1.0.0",
+  "description": "Smart contracts for vesting fungible token",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatsykve/token-vesting.git"
+  },
+  "keywords": [
+    "FT",
+    "web3",
+    "vesting"
+  ],
+  "author": "Vova Yatsyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yatsykve/token-vesting/issues"
+  },
+  "homepage": "https://github.com/yatsykve/token-vesting#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
+  }
+}
